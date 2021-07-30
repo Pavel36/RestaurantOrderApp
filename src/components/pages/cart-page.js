@@ -1,5 +1,6 @@
 import React from 'react';
 import CartTable from '../cart-table';
+import { withRouter } from 'react-router'
 
 const CartPage = () => {
     return (
@@ -9,4 +10,4 @@ const CartPage = () => {
     )
 }
 
-export default CartPage;
+export default withRouter(CartPage);
